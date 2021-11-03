@@ -70,8 +70,20 @@
         <p>Когда ваших знаний в программировании может не хватить для работы программистом. Потому что деньги точно есть, но вначале работа! А вместо зарплаты: <a href=https://www.youtube.com/watch?v=0XjLSdqUpx8&ab_channel=%D0%A0%D0%B0%D0%B4%D0%B8%D0%BE%D0%A1%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D0%B0>вот вам уважаемый персонаж ссылку на ютуб</a>.</p>
         <p>Перевоплощение самых страшных и жестоких извергов в добрейших и светлых няшек. Это маска коммунистического.нацизма. Которая пробирается сквозь расовую решетку. Назойлива так твердит: А для маАсквы это не деньги, для тебя чурка это деньги, а для нас маАсквичей “сволочей и извергов” это не деньги(потому что маАсковские крысы привыкли жить за чужой счет). И когда нибудь тебя обыскав с ног до головы, настойчиво заставляют уволиться, потому что ты слишком хорош.</p>
         <picture>
-        <img src="images/P10721-081650.jpg">
+        <img src="images/P10721-081650.jpg" id="imge">
         </picture>
+        <script>
+          let ok=+0;
+          document.querySelector('#imge').addEventListener('click',()=>{
+            ok++;
+            if(ok==1){
+            document.querySelector('#imge').src="images/P10721-081715.jpg";
+          }else if(ok==2){
+            document.querySelector('#imge').src="images/P10721-081650.jpg";
+            ok=0;
+          }
+          });
+          </script>
         <span style="border:3px solid red; background:grey;max-width:100%; color:white; text-shadow:2px 2px 3px black;">
         <div style="max-width:100%; margin:1%;">
         Неужели тут разоблачение самых страшных тайн нацистского коммунизма? О_о <a href=https://zen.yandex.ru/media/litres/diavolskii-soiuz-pakt-gitlera--stalina-5ea14a48d836344f31c7ee5b>Дружба Сталина с гитлером</a>.
